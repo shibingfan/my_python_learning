@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="http://www..." method="get">
+<p>
+<label>姓名：</label><input type="text" name="username" />
+</p>
+<p>
+<label>密码：</label><input type="password" name="password" />
+</p>
+<p>
+<label>性别：</label>
+<input type="radio" name="gender" value="0" /> 男
+<input type="radio" name="gender" value="1" /> 女
+</p>
+<p>
+<label>爱好：</label>
+<input type="checkbox" name="like" value="sing" /> 唱歌
+<input type="checkbox" name="like" value="run" /> 跑步
+<input type="checkbox" name="like" value="swiming" /> 游泳
+</p>
+<p>
+<label>照片：</label>
+<input type="file" name="person_pic">
+</p>
+<p>
+<label>个人描述：</label>
+<textarea name="about"></textarea>
+</p>
+<p>
+<label>籍贯：</label>
+<select name="site">
+    <option value="0">北京</option>
+    <option value="1">上海</option>
+    <option value="2">广州</option>
+    <option value="3">深圳</option>
+</select>
+</p>
+<p>
+<input type="submit" name="" value="提交">
+<!-- input类型为submit定义提交按钮
+     还可以用图片控件代替submit按钮提交，一般会导致提交两次，不建议使用。如：
+     <input type="image" src="xxx.gif">
+-->
+<input type="reset" name="" value="重置">
+</p>
+</form>
+</body>
+</html>
